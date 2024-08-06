@@ -24,9 +24,9 @@ Given a string s, return true *if it is a **palindrome***, or false otherwise.
     - s consists only of printable ASCII characters.
 
 ### Jawaban Soal No 1.
-    - Code : 
-    - Hasil Running : [Klik Disini](https://drive.google.com/file/d/186AEXVLBgEvOCInQN_kKmRF304hvKK5w/view?usp=sharing) 
-    - Berikut Penjelasannya :
+- Code : [Klik Disini](https://github.com/adesug/test-mc/blob/main/validPalindrome.js) untuk melihat code.
+- Hasil Running : [Klik Disini](https://drive.google.com/file/d/186AEXVLBgEvOCInQN_kKmRF304hvKK5w/view?usp=sharing) untuk melihat hasil running.
+- Berikut Penjelasannya :
    1. Mengubah Huruf Menjadi Kecil :
         -  `s.toLowerCase()` mengubah semua huruf dalam string s menjadi huruf kecil.
    2. Menghapus Karakter Non - Alphanumeric :
@@ -74,9 +74,9 @@ next (i + 1)<sup>th</sup> station. You begin the journey with an empty tank at o
     • 0 <= gas[i], cost[i] <= 10<sup>4</sup>
 
 ### Jawaban Soal No 2.
-    - Code : 
-    - Hasil Running : [Klik Disini](https://drive.google.com/file/d/1Fz4UuWUWFEMUfGZ7_Ew4gUSDUwJAWswT/view?usp=sharing) 
-    - Berikut Penjelasannya :
+- Code : [Klik Disini](https://github.com/adesug/test-mc/blob/main/gasStation.js) untuk melihat code.
+- Hasil Running : [Klik Disini](https://drive.google.com/file/d/1Fz4UuWUWFEMUfGZ7_Ew4gUSDUwJAWswT/view?usp=sharing) untuk melihat hasil running.
+- Berikut Penjelasannya :
    1. Cek Apakah Total Gas Cukup :
         -  Kita menghitung total gas dan total biaya dari semua stasiun.
         -  Jika total gas kurang dari total biaya, maka tidak mungkin untuk menyelesaikan perjalanan dari stasiun mana pun, dan kita langsung mengembalikan `-1`.
